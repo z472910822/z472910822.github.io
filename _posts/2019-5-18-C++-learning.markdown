@@ -10,8 +10,10 @@ tags:
     - 复习笔记
 ---
 #include<iostream>
+	
 using namespace std;
-template<typename X>
+
+template<typename X></br>
 X add(X x,X y)
 {
 	return x+y;
