@@ -9,11 +9,10 @@ tags:
     - ZLC
     - 复习笔记
 ---
+'''
 #include<iostream>
-	
 using namespace std;
-
-template<typename X></br>
+template<typename X>
 X add(X x,X y)
 {
 	return x+y;
@@ -30,3 +29,37 @@ int main(){
 	cout<<sub(a,b)<<endl;
 	return 0;
 }
+'''
+'''
+	#include<iostream>
+using namespace std;
+template <typename T>
+void insertionSort(T a[],int n)
+{
+	int i,j;
+	for(i=1;i<n;i++)
+	{
+		int j=i;
+		T temp=a[j];
+		while(j>0&&temp<a[j-1])
+		{
+			a[j]=a[j-1];
+			j--;
+		}
+		a[j]=temp;
+	}
+}
+int main(){
+	int a[10];
+	for(int i=0;i<10;i++)
+	{
+		cin>>a[i];
+	}
+	insertionSort(a,10);
+	for(int i=0;i<10;i++)
+	{
+		cout<<a[i]<<" ";
+	}
+	cout<<endl;
+}
+'''
