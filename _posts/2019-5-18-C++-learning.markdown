@@ -9,7 +9,7 @@ tags:
     - ZLC
     - 复习笔记
 ---
-'''
+```
 #include<iostream>
 using namespace std;
 template<typename X>
@@ -29,8 +29,8 @@ int main(){
 	cout<<sub(a,b)<<endl;
 	return 0;
 }
-'''
-'''
+```
+```
 	#include<iostream>
 using namespace std;
 template <typename T>
@@ -62,4 +62,4 @@ int main(){
 	}
 	cout<<endl;
 }
-'''
+```
