@@ -63,3 +63,6 @@ int main(){
 	cout<<endl;
 }
 ```
+###transform函数的作用是：将某操作应用于指定范围的每个元素。transform函数有两个重载版本：<br>
+transform(first,last,result,op);//first是容器的首迭代器，last为容器的末迭代器，result为存放结果的容器，op为要进行操作的一元函数对象或sturct、class。<br>
+transform(first1,last1,first2,result,binary_op);//first1是第一个容器的首迭代 器，last1为第一个容器的末迭代器，first2为第二个容器的首迭代器，<br>result为存放结果的容器，binary_op为要进行操作的二元函数 对象或sturct、class。
